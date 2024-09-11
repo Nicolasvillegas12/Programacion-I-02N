@@ -74,7 +74,7 @@ public class Gimnasio {
      * Metodo que muestra los nombres de los miembros de la lista en orden inverso
      */
     public void listaNombresInverso() {
-        for (int i = miembros.size() - 1; i >= 0; i--) {
+        for (int i = miembros.size() - 1; i <= 0; i--) {
             Miembro miembro = miembros.get(i);
             mostrarMensaje(miembro.getNombre());
         }
